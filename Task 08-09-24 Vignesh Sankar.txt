@@ -1,0 +1,13 @@
+root@ODBS-VIGNESH:~/home# cd
+root@ODBS-VIGNESH:~# ls
+home  my_folder  snap  task  task2  vignesh
+root@ODBS-VIGNESH:~# cd home
+root@ODBS-VIGNESH:~/home# ls
+root@ODBS-VIGNESH:~/home# touch demo.txt
+root@ODBS-VIGNESH:~/home# ls
+demo.txt
+root@ODBS-VIGNESH:~/home# chmod 764 demo.txt
+root@ODBS-VIGNESH:~/home# ls -l
+total 0
+-rwxrw-r-- 1 root root 0 Sep  9 22:45 demo.txt
+root@ODBS-VIGNESH:~/home# chmod 764 ~/demo.txt
