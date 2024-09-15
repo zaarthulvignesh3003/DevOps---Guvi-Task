@@ -1,0 +1,11 @@
+root@ODBS-VIGNESH:~# nmap -p 9000 guvi.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-09-15 14:08 IST
+Nmap scan report for guvi.com (172.67.146.154)
+Host is up (0.038s latency).
+Other addresses for guvi.com (not scanned): 104.21.79.166 2606:4700:3031::6815:4fa6 2606:4700:3037::ac43:929a
+
+PORT     STATE    SERVICE
+9000/tcp filtered cslistener
+
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+root@ODBS-VIGNESH:~#

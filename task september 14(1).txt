@@ -1,0 +1,83 @@
+root@ODBS-VIGNESH:~# nslookup guvi.in
+Server:         10.255.255.254
+Address:        10.255.255.254#53
+
+Non-authoritative answer:
+Name:   guvi.in
+Address: 104.26.4.88
+Name:   guvi.in
+Address: 172.67.70.207
+Name:   guvi.in
+Address: 104.26.5.88
+Name:   guvi.in
+Address: 2606:4700:83ba:d255:c1fd:623:60b8:c78e
+
+root@ODBS-VIGNESH:~# top
+top - 14:01:47 up 1 min,  1 user,  load average: 0.04, 0.02, 0.00
+Tasks:  37 total,   1 running,  36 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.1 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   7789.2 total,   6931.5 free,    519.9 used,    337.8 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7041.1 avail Mem
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0  100308  11020   8116 S   1.0   0.1   0:01.37 systemd
+    435 root      20   0   43164  37244  10056 S   0.3   0.5   0:01.55 python3
+      2 root      20   0    2476   1432   1320 S   0.0   0.0   0:00.01 init-systemd(Ub
+      8 root      20   0    2504    144    132 S   0.0   0.0   0:00.00 init
+     47 root      19  -1   31428  11588  10592 S   0.0   0.1   0:00.14 systemd-journal
+     67 root      20   0   22100   5828   4356 S   0.0   0.1   0:00.16 systemd-udevd
+     79 root      20   0  152992    184     24 S   0.0   0.0   0:00.00 snapfuse
+     83 root      20   0  152992    176     20 S   0.0   0.0   0:00.00 snapfuse
+     84 root      20   0  377284   8680    308 S   0.0   0.1   0:00.67 snapfuse
+     92 root      20   0  153124    208     44 S   0.0   0.0   0:00.00 snapfuse
+     99 root      20   0  152992    212     52 S   0.0   0.0   0:00.00 snapfuse
+    103 root      20   0  227888    460    200 S   0.0   0.0   0:00.07 snapfuse
+    111 root      20   0  302520   9284    316 S   0.0   0.1   0:01.21 snapfuse
+    114 root      20   0  152992    172      8 S   0.0   0.0   0:00.00 snapfuse
+    126 systemd+  20   0   25540  12284   8088 S   0.0   0.2   0:00.22 systemd-resolve
+    171 root      20   0    4308   2772   2532 S   0.0   0.0   0:00.00 cron
+    177 message+  20   0    8584   4640   4108 S   0.0   0.1   0:00.05 dbus-daemon
+    182 root      20   0   30104  19024  10240 S   0.0   0.2   0:00.19 networkd-dispat
+    185 syslog    20   0  222404   6936   4324 S   0.0   0.1   0:00.03 rsyslogd
+    196 root      20   0 1837368  33540  16772 S   0.0   0.4   0:00.70 snapd
+    221 root      20   0   15332   7332   6392 S   0.0   0.1   0:00.16 systemd-logind
+    246 root      20   0    4784   3356   3120 S   0.0   0.0   0:00.09 subiquity-serve
+    257 root      20   0    3240   1068    980 S   0.0   0.0   0:00.00 agetty
+    265 root      20   0    3196   1088    996 S   0.0   0.0   0:00.00 agetty
+    272 root      20   0  107228  21076  12976 S   0.0   0.3   0:00.13 unattended-upgr
+    300 root      20   0  154640  69388  17984 S   0.0   0.9   0:02.80 python3.10
+    356 root      20   0    2480    112      0 S   0.0   0.0   0:00.00 SessionLeader
+    357 root      20   0    2496    116      0 S   0.0   0.0   0:00.00 Relay(358)
+    358 root      20   0    6212   5072   3400 S   0.0   0.1   0:00.05 bash
+    359 root      20   0    2484    112      0 S   0.0   0.0   0:00.00 SessionLeader
+    360 root      20   0    7476   4648   3740 S   0.0   0.1   0:00.03 login
+    361 root      20   0    2500    116      0 S   0.0   0.0   0:00.00 Relay(362)
+    362 root      20   0    6220   5184   3440 S   0.0   0.1   0:00.03 bash
+    413 root      20   0   17036   9636   8064 S   0.0   0.1   0:00.06 systemd
+    414 root      20   0  103368   3384     16 S   0.0   0.0   0:00.00 (sd-pam)
+    420 root      20   0    6124   5040   3352 S   0.0   0.1   0:00.00 bash
+    534 root      20   0    7936   3720   3120 R   0.0   0.0   0:00.02 top
+
+
+
+
+
+root@ODBS-VIGNESH:~# free -h
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       518Mi       6.8Gi       3.0Mi       337Mi       6.9Gi
+Swap:          2.0Gi          0B       2.0Gi
+root@ODBS-VIGNESH:~# ping 104.26.4.88
+PING 104.26.4.88 (104.26.4.88) 56(84) bytes of data.
+64 bytes from 104.26.4.88: icmp_seq=1 ttl=56 time=15.9 ms
+64 bytes from 104.26.4.88: icmp_seq=2 ttl=56 time=10.7 ms
+64 bytes from 104.26.4.88: icmp_seq=3 ttl=56 time=7.27 ms
+64 bytes from 104.26.4.88: icmp_seq=4 ttl=56 time=8.23 ms
+64 bytes from 104.26.4.88: icmp_seq=5 ttl=56 time=10.4 ms
+64 bytes from 104.26.4.88: icmp_seq=6 ttl=56 time=6.24 ms
+64 bytes from 104.26.4.88: icmp_seq=7 ttl=56 time=14.0 ms
+64 bytes from 104.26.4.88: icmp_seq=8 ttl=56 time=10.6 ms
+^C
+--- 104.26.4.88 ping statistics ---
+8 packets transmitted, 8 received, 0% packet loss, time 7012ms
+rtt min/avg/max/mdev = 6.244/10.412/15.895/3.068 ms
+root@ODBS-VIGNESH:~#
