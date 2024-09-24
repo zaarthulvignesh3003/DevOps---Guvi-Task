@@ -1,0 +1,39 @@
+root@ODBS-VIGNESH:~# vim task2.sh
+root@ODBS-VIGNESH:~# cat task2.sh
+#!/bin/bash
+
+# Check if the filename is passed as an argument
+if [ -z "$1" ]; then
+  echo "Usage: $0 filename"
+  exit 1
+fi
+
+# Temporary file to store the changes
+temp_file=$(mktemp)
+
+# Process the file
+awk 'NR < 5 {print; next} /welcome/ {gsub(/give/, "learning")} {print}' "$1" > "$temp_file"
+
+# Move the temporary file back to the original file
+mv "$temp_file" "$1"
+
+echo "Replacement done successfully!"
+
+root@ODBS-VIGNESH:~# ./task2.sh
+-bash: ./task2.sh: Permission denied
+root@ODBS-VIGNESH:~# chmod +x task2.sh
+root@ODBS-VIGNESH:~# ./task2.sh
+Usage: ./task2.sh filename
+root@ODBS-VIGNESH:~# ls
+documents  my_folder  snap  task  task2.sh
+root@ODBS-VIGNESH:~# touch task3.sh
+root@ODBS-VIGNESH:~# ./task2.sh task3.sh
+Replacement done successfully!
+root@ODBS-VIGNESH:~# cat task3.sh
+root@ODBS-VIGNESH:~# ./task3.sh
+-bash: ./task3.sh: Permission denied
+root@ODBS-VIGNESH:~# chmod +x task3.sh
+root@ODBS-VIGNESH:~# ./task3.sh
+root@ODBS-VIGNESH:~# cat task3.sh
+root@ODBS-VIGNESH:~# vim task3.sh
+root@ODBS-VIGNESH:~#
