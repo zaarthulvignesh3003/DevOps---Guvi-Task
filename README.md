@@ -1,7 +1,6 @@
-Please check September 22 Task
+Please check October 06 Task - Git Commands
 
-1. Task September 22(1).txt
-2. Task September 22(2).txt
-3. DevOps Task (22-09) Vignesh Sankar.docx
+1. Task October 06.txt
+3. DevOps Task (06-10) Vignesh Sankar.docx
 
-These 3 file where i attached the screenshot of the image/commands and txt editor file.
+These 2 file where i attached the screenshot of the image/commands of git and txt editor file.
