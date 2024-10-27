@@ -1,6 +1,5 @@
-Please check October 06 Task - Git Commands
+Please check October 26 Task - Docker commands
 
-1. Task October 06.txt
-3. DevOps Task (06-10) Vignesh Sankar.docx
+1. DevOps Task (26-10) Vignesh Sankar.docx
 
-These 2 file where i attached the screenshot of the image/commands of git and txt editor file.
+Please check this file where i attached the screenshot of the image/commands of Instance connect and docker commands.
