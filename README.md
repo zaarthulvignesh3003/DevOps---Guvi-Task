@@ -1,17 +1,12 @@
-Please check below file for December 21 Task - AWS Task 3
+Please check below file for December 22 Task - AWS Task 4
 
 Task Description:
 
-1. Create a S3 bucket, with no public access and upload files to the bucket & view the logs using cloudwatch for the uploaded files.
+Launch an EC2 instance (Linux and Windows) along with a web server. Then, create an EBS volume of 5 GB, attach it to an EC2 machine (Linux and Windows), and take a snapshot. Finally, create an EBS volume using the taken snapshot.
 
-DevOps Task (Dec-21) Task 1 Vignesh Sankar.docx
+DevOps Task (Dec-22) AWS Task 4 - Vignesh Sankar.docx
 
-Please check this file where i attached the screenshot of the image/commands of S3 bucket creation and upload files and access.
+Please check this file where i attached the screenshot of the image/commands of volume creation, attach and detach and take a snapshot.
 
-2. Launch two ec2-instances and connect it to a application load balancer, where the output traffic from the server must be an load balancer IP address
-
-DevOps Task (Dec-21) Task 2 - Vignesh Sankar.docx
-
-Please check this file where i attached the screenshot of the image/commands of Instance creation and connect to ALB and load balancer IP address.
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
