@@ -1,12 +1,13 @@
-Please check below file for December 22 Task - AWS Task 4
+Please check below file for Jan 11 Task - AWS Task 5
 
 Task Description:
 
-Launch an EC2 instance (Linux and Windows) along with a web server. Then, create an EBS volume of 5 GB, attach it to an EC2 machine (Linux and Windows), and take a snapshot. Finally, create an EBS volume using the taken snapshot.
+Deploy a simple web application using AWS code commit, code build and deploy & access via browser and automate via codepipeline.
 
-DevOps Task (Dec-22) AWS Task 4 - Vignesh Sankar.docx
 
-Please check this file where i attached the screenshot of the image/commands of volume creation, attach and detach and take a snapshot.
+DevOps Task (Jan 11) AWS Task 5 - Vignesh Sankar.docx
+
+Please check this file where i attached the screenshot of the image/commands of AWS code build and deploy and take a snapshot.
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
