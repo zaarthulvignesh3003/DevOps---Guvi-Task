@@ -1,21 +1,9 @@
-Please check below file for Monitoring Task
+Guvi Project 01
 
-Task Description:
+React static app
 
-Install Prometheus and Grafana on a Linux EC2 machine, connect Prometheus to Grafana, and create a dashboard to view metrics.
+Please refer "Project_1.docx" for the screenshots of complete Project flow
 
-Techstacks needs to be used : 
-
-AWS EC2
-Prometheus 
-Grafana
-Node Exporter
-
-
-File Name: 
-**DevOps - Monitoring Task - Prometheus & Grafana.docx
-
-Please check this file where i attached the screenshot of the image/commands of Prometheus and Grafana setup in Linux 2023.
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
